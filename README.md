@@ -1,1 +1,1 @@
-# my-1st-app
+This repository is all about learning React Router v4 with redux.
