@@ -1,0 +1,812 @@
+body
+{
+  background-image: url(img/student.jpg);
+  min-height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Start-Wraper */
+.wraper
+{
+    width:100%;
+	height:auto;
+	min-height: auto;
+	margin-left:auto;
+	margin-right:auto;
+    
+}
+/* End-Wraper */
+.mainbox
+{
+    width:650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Start-formbox */
+.formbox
+{
+    width: 580px;
+    height: auto;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+/* End-formbox */
+
+/* Start-heading */
+.heading
+{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 2px 2px #808080, 0 0 20px rgb(255, 238, 0), 0 0 5px;
+    font-family: sans-serif;
+}
+p{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+    text-shadow: 1px 2px 2px #808080, 0 0 20px #000, 0 0 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* End-heading */
+
+/* Start-input */
+input:focus
+{
+    background-color: #58a4b9;
+    color: #ffffff;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    float: left;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=checkbox]
+{
+    float: left;
+    margin: auto;
+}
+/* End-input */
+input[type=submit]
+{
+    background-color: #707070; 
+    color: white;
+    width:40%;
+    border: 2px solid #000;
+}
+input[type=submit]:hover
+{
+    background-color: #000; 
+    color: white;
+    cursor: pointer;
+    width:40%;
+    border: 2px solid #808080;
+    transition-duration: 0.8s;
+}
+
+/* Start-signIn signUp  */
+.signIn, .signUp, .submit 
+{
+    background-color: #3136e6;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 35%;
+}
+.click
+{
+    background-color: #3136e6;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 450px;
+    padding: 10px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+}
+.click a, .addmore a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.click:hover, .addmore:hover
+{
+    background-color: #28157e;
+    border: 20px 0px 4px 0px solid #ccc;
+    color: #fff;
+    transition-duration: 0.8s;
+}
+
+.addmore
+{
+    background-color: #58a4b9;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 10px;
+    padding: 10px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 17%;
+}
+.remove
+{
+    background-color: #c40a57;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: white;
+    margin-top: 3px;
+    margin-left: 4px;
+    padding: 10px 2px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 33%;  
+    height: 30px;
+    line-height: 0;
+    text-align: center;
+}
+.remove:focus
+{
+    background-color: #8f0523;
+}
+.delete {
+    margin-left: auto;
+    margin-right:auto;
+    border: 0px;
+    padding: 0;
+}
+.signUp a, .submit a
+{
+    color:#fff;
+    text-decoration: none;
+    margin: 1px;
+}
+.signIn:hover, .signUp:hover , .submit:hover, .option:hover{
+    background-color: #28157e;
+    border: 20px 0px 4px 0px solid #ccc;
+    color: #fff;
+    transition-duration: 0.8s;
+}
+/* End-signIn signUp  */
+
+/* Start-select-option  */
+.select
+{
+    
+    border-radius: 10px;
+    min-height: auto;
+    color: white;
+    margin:auto;
+    padding: 200px 100px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    /* width: 40%; */
+}
+/* Start-option  */
+.option
+{
+    background-color: #3136e6;
+    border-radius: 10px;
+    min-height: auto;
+    color: white;
+    margin:auto;
+    padding: 20px 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    /* width: 40%; */
+}
+.option a 
+{
+    color:#fff;
+    text-decoration: none;
+    margin: 1px;
+}
+/* End-option  */
+
+
+/* Start-label, p text1 text2  */
+label   
+{
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 10px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.text1
+{
+    color: white;
+}
+.text2
+{
+    color: red;
+    font-weight: bold;
+}
+/* End-label, p text1 text2  */
+
+/* Start-username */
+.username
+{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    text-shadow: 1px 2px 2px #808080, 0 0 20px #ffffff, 0 0 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* End-username */
+
+/* Start-record */
+.record 
+{
+    font-size: 70px;
+    font-weight: bold;
+    color: #2b7b75;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 2px 2px #808080, 0 0 20px #ffffff, 0 0 5px;
+    font-family: sans-serif;
+}
+/* End-record */
+
+/* Start-container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin:10px 10px 0px 0px;
+    color:#ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #000;
+    border-radius:10px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #000;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+/* End-container */
+.sname
+{
+    background-color: #28157e;
+    width: 20%;    
+    font-weight: bold;
+    color:#fff;
+}
+.rnum
+{
+    background-color: rgb(11, 138, 68);
+    width: 10%;
+    font-weight: bold;
+    color:#fff;
+}
+.maxnum
+{
+    background-color: #2ec4a3;
+    width: 8%;
+    font-weight: bold;
+    color:#fff;
+}
+.minnum
+{
+    background-color: #e038ca;
+    width: 8%;
+    font-weight: bold;
+    color:#fff;
+}
+.pf
+{
+    background-color: #c20d34;
+    width: 10%;
+    font-weight: bold;
+    color:#fff;
+}
+.total
+{
+    background-color: rgb(250, 214, 14);
+    width: 10%;
+    font-weight: bold;
+    color:#fff;
+    
+}
+.mlogo
+{
+    margin: 20px;
+    text-align: center;
+}
+.mlogo img
+{
+    width:80px;
+    height: 80px;   
+}
+.hardcode
+{
+    width: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+table
+{
+/* border: 1px solid white; */
+border: 2px solid white;
+border-radius: 4px;
+margin: 5px;
+}
+
+table tr td th
+{
+    color: #fff;
+    border: 0px solid;
+    border-radius: 10px;
+} 
+.font
+{
+    color:#fff;
+    font-weight: bold;
+    margin:3px;
+    width: 20%;
+}
+.marks
+{
+    color:#fff;
+    font-weight: bold;
+    margin:3px;
+    text-align: center;
+    
+}
+
+.result
+{
+    color:#fff;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    width: 185px;
+}
+.data {
+    margin-left: auto;
+    margin-right:auto;
+    height: 40px;
+    width: 10px;
+    padding: 0;
+    border-radius: 10px;
+}
+.data input[type="text"], .data input[type="number"]
+{
+    width: 95%;
+    color: #000;
+    border: 1px solid orange ;
+    border-radius: 9px;
+    margin: 3px;
+    padding: 3%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    
+}
+.data input[type="text"]:focus, .data input[type="number"]:focus
+{
+    background-color: #7dbcce;
+    color: #ffffff;
+    font-weight: bold;
+    caret-color: red;
+    text-align: center;
+}
+.data input[type="number"]::-webkit-inner-spin-button, 
+.data input[type="number"]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.maxmarks {
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0;
+    
+}
+.maxmarks input[type="text"]
+{
+    width:70%;
+    color: #000;
+    border: 1px solid orange ;
+    border-radius: 9px;
+    margin: 3px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.maxmarks input[type="text"]:focus
+{
+    background-color: #7dbcce;
+    color: #ffffff;
+    
+}
+.gap
+{
+    border: 0px solid;
+}
+.readonly
+{
+    width: 100px;
+    height: 40px;
+    padding: 0;
+    border-radius: 10px;
+}
+.obtainbox
+{
+    width: 100px;
+    height: 40px;
+    padding: 0;
+    border: 1px solid white;
+}
+.readonly input , .obtainbox input
+{
+    width: 93%;
+    text-align: center;
+}
+.readonly input[type=text],.obtainbox input[type=text]
+{
+    color:#fff;
+    font-weight: bold;
+    border: 0px solid;
+    width: -3px;
+    background: rgba(204, 204, 204, 0);
+}
+/* .readonly input[type="text"]:focus
+{
+    border: 0px solid gray;
+    outline: none;
+    color: transparent;
+}
+.readonly input[type="text"]::placeholder
+{
+    color:#fff;
+} */
+.boderHeading th
+{
+    border: 1px solid white;
+    /* border-radius: 10px; */
+    /* background-color: red; */
+}
+@media only screen and (max-width: 600px) {
+
+    .wraper {
+    
+        width:100%;
+    
+        height:auto;
+    
+        min-height: auto;
+    
+        /* background-color:#ffffff; */
+    
+        margin-left:auto;
+    
+        margin-right:auto;
+    
+    }
+
+    .mainbox
+{
+    width:100%;
+    min-height: auto;
+    /* background-color: orange; */
+    margin-left: auto;
+    margin-right: auto;
+}
+    .formbox
+{
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+.heading
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 2px 2px #808080, 0 0 20px rgb(255, 238, 0), 0 0 5px;
+    font-family: sans-serif;
+}
+    input:focus
+{
+    background-color: #7dbcce;
+    color: #ffffff;
+}
+
+input{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px;
+    float: left;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=checkbox]
+{
+    float: left;
+    margin: auto;
+}
+input[type=submit]
+{
+    background-color: #707070; 
+    color: white;
+    width:95%;
+    border: 2px solid #000;
+}
+input[type=submit]:hover
+{
+    background-color: #000; 
+    color: white;
+    cursor: pointer;
+    width:95%;
+    border: 2px solid #808080;
+    transition-duration: 0.8s;
+}
+.signIn, .signUp
+{
+   background-color: #3136e6; /* Green */
+   width: 95%;
+    border-radius: 10px;
+    color: white;
+    margin: 4px;
+    margin-left: 10px;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.signIn:hover {
+    background-color: #28157e;
+    border: 20px 0px 4px 0px solid #fff;
+      transition-duration: 0.8s;
+}
+.signUp a{
+    color:#fff;
+    text-decoration: none;
+    margin: 1px;
+}
+.signUp:hover {
+    background-color: #28157e;
+    border: 20px 0px 4px 0px solid #ccc;
+    color: #fff;
+      transition-duration: 0.8s;
+}
+
+.select
+{
+    width:95%;
+    border-radius: 10px;
+    min-height: auto;
+    color: white;
+    margin:auto;
+    padding: 200px 0px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.option
+{
+    background-color: #3136e6;
+    border-radius: 10px;
+    min-height: auto;
+    color: white;
+    margin:3px;
+    padding: 20px 32px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    width: 95%;
+}
+.option a 
+{
+    color:#fff;
+    text-decoration: none;
+    margin: 1px;
+}
+
+
+label   
+{
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 10px;
+    line-height: 30px;
+    font-weight: bold;
+}
+p
+{
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 10px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text1
+{
+    color: white;
+}
+.text2
+{
+    color: red;
+    font-weight: bold;
+}
+
+.username
+{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    text-shadow: 1px 2px 2px #808080, 0 0 20px #ffffff, 0 0 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.record 
+{
+    font-size: 70px;
+    font-weight: bold;
+    color: #2b7b75;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 2px 2px #808080, 0 0 20px #ffffff, 0 0 5px;
+    font-family: sans-serif;
+}
+
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin:10px 10px 0px 0px;
+    color:#ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #000;
+    border-radius:10px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #000;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+p{
+     text-align: center;
+     margin: 0;
+     color:#fff;
+     font-size: 30px;
+     text-shadow: 1px 2px 2px #808080, 0 0 20px #000, 0 0 5px;
+     font-family: sans-serif;
+     font-weight: bold;
+}
+
+}
